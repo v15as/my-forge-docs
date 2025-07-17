@@ -1,18 +1,21 @@
-import { useState } from 'react'
 import './App.css'
 
-function App() {
-
-    return (
-        <>
-            <h1>
-                Hello world
-            </h1>
-            <p>
-                Testing 1 2 3...
-            </p>
-        </>
+export default function App(){
+    return(
+        <h>
+            <table>
+                <tr>
+                    <th>Forge Version</th>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="./javadoc/javadoc-forge-1.21.x/index.html">
+                            1.21.x
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </h>
     );
-}
+};
 
-export default App

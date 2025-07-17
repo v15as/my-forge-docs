@@ -2,6 +2,7 @@
     "name": "forge-app",
     "private": true,
     "version": "0.0.0",
+    "homepage": "https://v15as.github.io/my-forge-docs/",
     "type": "module",
     "scripts": {
         "predeploy": "npm run build",
@@ -25,7 +26,7 @@
         "eslint-plugin-react-refresh": "^0.4.20",
         "gh-pages": "^6.3.0",
         "globals": "^16.3.0",
-        "react-router": "^7.6.3",
+        "react-router": "^7.7.0",
         "vite": "^7.0.4"
     }
 }
